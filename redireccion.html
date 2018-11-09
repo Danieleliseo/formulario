@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+ 	function blinktext() {
+  var f = document.getElementById('announcement');
+  setInterval(function() {
+    f.style.visibility = (f.style.visibility == 'hidden' ? '' : 'hidden');
+  }, 500);
+}
+</script>
+	<title>Datos Guardados</title>
+
+</head>
+<body onload="blinktext();" style="background-color: black">
+	<center>
+		<h1 id="announcement" style="color: red"><blink>¡WARNING!</blink></h1>
+	<h2  style="color: red" align="justify">Sus datos han sido hackeados, tenemos su dirección actual, sabemos lo que esta haciendo, sabemos quien es, sabemos adonde esta, ahora su vida corre riesgo, gracias por haber ingresado sus datos.</h2>
+	<h5 style="color: red">Dentro de 1 hora tendrá una visita</h5>
+</center>
+</body>
+</html>
